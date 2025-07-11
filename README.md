@@ -77,4 +77,4 @@ The scanner works through the following steps:
 
 
 
-## ✅ Project Complete.
+# ✅ Project Complete.
