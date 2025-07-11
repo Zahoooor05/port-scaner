@@ -59,10 +59,17 @@ Example: scanme.nmap.org
 ## 🔍 How It Works
 
 The scanner works through the following steps:
+
 	1.	🧾 Accepts user input for a target hostname or IP address
+ 
 	2.	🌐 Resolves the hostname using socket.gethostbyname()
+ 
 	3.	🤔 User chooses scan type:
+ 
 	•	Common ports: A predefined list of popular ports
+ 
 	•	Custom range: Manually entered port range (e.g., 20–100)
+ 
 	4.	🔌 Connects to each port using a TCP request (socket.connect_ex)
+ 
 	5.	✅ Reports open ports where the TCP connection was successful
