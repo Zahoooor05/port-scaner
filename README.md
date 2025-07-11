@@ -49,7 +49,7 @@ Example: scanme.nmap.org
 	•	1 — Scan common ports (e.g., 21, 22, 80, etc.)
 	•	2 — Enter a custom port range
 Example: ports 20–100
-___
+```
 
 ---
 ## 🔍 How It Works
