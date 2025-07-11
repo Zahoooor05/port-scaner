@@ -73,6 +73,8 @@ The scanner works through the following steps:
 	4.	🔌 Connects to each port using a TCP request (socket.connect_ex)
  
 	5.	✅ Reports open ports where the TCP connection was successful
-```
+
+
+
 
 ## ✅ Project Complete.
