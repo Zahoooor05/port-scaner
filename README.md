@@ -50,8 +50,8 @@ Example: scanme.nmap.org
 	•	2 — Enter a custom port range
 Example: ports 20–100
 
-⸻
 
+---
 ## 🔍 How It Works
 
 The scanner works through the following steps:
