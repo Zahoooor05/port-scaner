@@ -23,11 +23,11 @@ This is a beginner-friendly cybersecurity tool that lets you scan a target for o
 ---
 
 ## 📂 Project Structure
-port-scanner/
-├── port_scanner.py       # Main script
-├── README.md             # Project documentation
-├── ps1.jpg               # Demo screenshot
-├── ps2.jpg               # Demo screenshot
+port-scanner/ ␣␣
+├── port_scanner.py       # Main script ␣␣
+├── README.md             # Project documentation ␣␣
+├── ps1.jpg               # Demo screenshot ␣␣
+├── ps2.jpg               # Demo screenshot ␣␣
 └── .gitignore            # Git ignore file
 
 ---
@@ -47,8 +47,7 @@ When you run the script, you’ll be prompted to:
 Example: scanme.nmap.org
 	•	⚙ Choose your scan type:
 	•	1 — Scan common ports (e.g., 21, 22, 80, etc.)
-	•	2 — Enter a custom port range
-Example: ports 20–100
+	•	2 — Enter a custom port range (e.g., ports 20–100)
 ```
 
 ---
