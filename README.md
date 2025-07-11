@@ -41,3 +41,24 @@ cd port-scanner
 
 # Run the script
 python port_scanner.py
+
+When you run the script, you’ll be prompted to:
+	•	🖥 Enter a hostname or IP address
+Example: scanme.nmap.org
+	•	⚙ Choose your scan type:
+	•	1 — Scan common ports (e.g., 21, 22, 80, etc.)
+	•	2 — Enter a custom port range
+Example: ports 20–100
+
+⸻
+
+## 🔍 How It Works
+
+The scanner works through the following steps:
+	1.	🧾 Accepts user input for a target hostname or IP address
+	2.	🌐 Resolves the hostname using socket.gethostbyname()
+	3.	🤔 User chooses scan type:
+	•	Common ports: A predefined list of popular ports
+	•	Custom range: Manually entered port range (e.g., 20–100)
+	4.	🔌 Connects to each port using a TCP request (socket.connect_ex)
+	5.	✅ Reports open ports where the TCP connection was successful
