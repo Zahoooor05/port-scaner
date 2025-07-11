@@ -23,11 +23,16 @@ This is a beginner-friendly cybersecurity tool that lets you scan a target for o
 ---
 
 ## 📂 Project Structure
-port-scanner/ ␣␣
-├── port_scanner.py       # Main script ␣␣
-├── README.md             # Project documentation ␣␣
-├── ps1.jpg               # Demo screenshot ␣␣
-├── ps2.jpg               # Demo screenshot ␣␣
+port-scanner/
+
+├── port_scanner.py       # Main script 
+
+├── README.md             # Project documentation 
+
+├── ps1.jpg               # Demo screenshot 
+
+├── ps2.jpg               # Demo screenshot 
+
 └── .gitignore            # Git ignore file
 
 ---
